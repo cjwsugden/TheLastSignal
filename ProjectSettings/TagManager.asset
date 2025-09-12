@@ -53,5 +53,8 @@ TagManager:
   - name: Overlays
     uniqueID: 1109030589
     locked: 0
+  - name: MemoryUI
+    uniqueID: 776195407
+    locked: 0
   m_RenderingLayers:
   - Default
