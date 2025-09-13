@@ -289,7 +289,7 @@ MonoBehaviour:
   crewPhoto: {fileID: 3107475663704403226, guid: 37def0e3a5ef0bf45b4d79b46cea1e75, type: 3}
   crewName: Mr. Meow
   memoryText: Wagwan bossi
-  memoryUI: {fileID: 0}
+  memoryUI: {fileID: 1359371918}
 --- !u!61 &76829494
 BoxCollider2D:
   m_ObjectHideFlags: 0
