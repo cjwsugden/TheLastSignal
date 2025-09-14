@@ -1,16 +1,21 @@
 using UnityEngine;
 
-public class Laptop : MonoBehaviour
+public class Laptop : MonoBehaviour, IInteractable
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public Sprite crewPhoto;
+    public string crewName;
+    [TextArea(3, 7)]
+    public string memoryText;
+
+    public MemoryUIManager memoryUI;
+
+    public void Interact()
     {
-        
+        memoryUI.ShowMemory(crewPhoto, crewName, memoryText);
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool CanInteract()
     {
-        
+        return true;
     }
 }
